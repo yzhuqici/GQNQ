@@ -4,12 +4,8 @@ import torch.nn.functional as F
 
 class RepresentationNetwork(nn.Module):
     def __init__(self, x_dim, v_dim, r_dim):
-        """
-        A neural network with skip connections which converts the input observable and
-        its corresponding expectation into a representation which is more dense than the input.
-        """
+
         super(RepresentationNetwork, self).__init__()
-        # Final representation size
         self.r_dim = k = r_dim
         self.v_dim = v_dim
         self.linear1 = nn.Linear(v_dim-3, k)
