@@ -1,6 +1,5 @@
 import torch
 import torch.nn as nn
-
 from representation import RepresentationNetwork
 from generator import GeneratorNetwork
 

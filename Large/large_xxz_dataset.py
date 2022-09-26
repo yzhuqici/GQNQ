@@ -25,7 +25,6 @@ class LargeRandomStateMeasurementResultData(Dataset):
                 values.append(np.array(tmp,dtype=np.float32))
         self.values = np.array(values)
 
-
     def __getitem__(self, idx):
         assert idx < len(self.values)
         return self.observables, self.values[idx]

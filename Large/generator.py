@@ -3,7 +3,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.distributions import Normal, kl_divergence
 
-
 class LSTMCell(nn.Module):
     def __init__(self, in_channels, out_channels):
         super(LSTMCell, self).__init__()
@@ -28,8 +27,6 @@ class LSTMCell(nn.Module):
         hidden = output_gate * torch.tanh(cell)
 
         return hidden, cell
-
-
 
 class GeneratorNetwork(nn.Module):
     def __init__(self, x_dim=1, v_dim=128, r_dim=32, z_dim=32, h_dim=64, L=3):

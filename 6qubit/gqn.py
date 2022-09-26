@@ -14,7 +14,6 @@ class GenerativeQueryNetwork(nn.Module):
         self.z_dim = z_dim
         self.L = L
         self.r_dim = r_dim
-
         self.generator = GeneratorNetwork(x_dim, v_dim, r_dim, z_dim, h_dim, L)
         self.representation = RepresentationNetwork(x_dim, v_dim, r_dim)
 

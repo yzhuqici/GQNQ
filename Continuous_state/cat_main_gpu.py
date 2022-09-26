@@ -8,7 +8,6 @@ from torch.utils.data.dataset import random_split
 from cgqn import GenerativeQueryNetwork
 from cdataset import CatGaussData, GaussData, MixStateData, GKPStateData, CatStateData
 
-
 ds = CatStateData()
 # ds = GKPStateData()
 # ds = MixStateData()

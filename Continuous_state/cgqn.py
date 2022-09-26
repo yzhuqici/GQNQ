@@ -3,6 +3,7 @@ import torch.nn as nn
 from crepresentation import RepresentationNetwork
 from cgenerator import GeneratorNetwork
 
+
 class GenerativeQueryNetwork(nn.Module):
     def __init__(self, x_dim, v_dim, r_dim=8, h_dim=64, z_dim=32, L=12):
         super(GenerativeQueryNetwork, self).__init__()

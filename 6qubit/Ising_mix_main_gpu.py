@@ -118,15 +118,6 @@ for i in tqdm(range(0, epochs)):
     print(test_loss / count2)
     print(refer_loss/count2)
 
-    if test_flag == 0:
-        torch.save(model.state_dict(), 'Ising_mix_' + str(num_bits) + 'qubit_' + str(r_dim) + '_' + str(h_dim) + '_' + str(z_dim) + '_2_softmax_r2')
-
-
-
-
-
-
-
-
-
+    # if test_flag == 0:
+    #     torch.save(model.state_dict(), 'Ising_mix_' + str(num_bits) + 'qubit_' + str(r_dim) + '_' + str(h_dim) + '_' + str(z_dim) + '_2_softmax_r2')
 

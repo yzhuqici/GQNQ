@@ -7,7 +7,6 @@ class LargeRandomStateMeasurementResultData(Dataset):
         for i in range(0,num_observables):
             tmp = np.load('2qubit/float_observable2'+str(i)+'.npy')
             observables.append(np.array(tmp))
-
         index_observables = []
         combination_list = np.load('mso/' + str(num_qubits)+'qubit_sequence_list.npy')
         for j in range(0, len(combination_list)):

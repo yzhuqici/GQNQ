@@ -3,7 +3,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.distributions import Normal, kl_divergence
 
-
 class LSTMCell(nn.Module):
     def __init__(self, in_channels, out_channels):
         super(LSTMCell, self).__init__()

@@ -22,8 +22,6 @@ test_ds = TestLargeRandomStateMeasurementResultData(num_observables, num_test_st
 train_loader = DataLoader(train_ds,batch_size=20)
 test_loader = DataLoader(test_ds)
 
-
-
 # Model
 device_ids=range(torch.cuda.device_count())
 r_dim = 24

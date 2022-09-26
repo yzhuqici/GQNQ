@@ -81,7 +81,6 @@ class GeneratorNetwork(nn.Module):
 
         return torch.tanh(x_mu), kl
 
-
     def sample(self, v, r):
         batch_size, m, _ = v.shape
 

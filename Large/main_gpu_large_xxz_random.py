@@ -11,7 +11,6 @@ from large_xxz_dataset import LargeRandomStateMeasurementResultData, TestLargeRa
 
 # Data
 Nsites = 20
-
 test_flag = 0
 num_bits = 2
 split_ratio = 0.9

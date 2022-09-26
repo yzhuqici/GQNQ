@@ -67,7 +67,6 @@ class TestStateMeasurementResultData(Dataset):
             values.append(np.array(tmp, dtype=np.float32))
         self.expectation_values = np.array(values)
 
-
     def __getitem__(self, idx):
         assert idx < len(self.expectation_values)
         return self.observables, self.expectation_values[idx]

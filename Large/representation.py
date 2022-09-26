@@ -15,7 +15,6 @@ class RepresentationNetwork(nn.Module):
         self.linear5 = nn.Linear(k , k)
         # self.linear6 = nn.Linear(2*k, k)
 
-
     def forward(self, x, v):
         v1 = F.relu(self.linear1(v[:,0:self.v_dim-3]))
         x = F.relu(self.linear2(x))
