@@ -42,7 +42,6 @@ lr = 0.001
 optimizer = torch.optim.Adam(model.parameters(), lr=lr)
 epochs = 30
 
-best = 0
 
 for i in tqdm(range(0, epochs)):
     print(i)
