@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69c4ca55-e08e-4f90-841d-44a2cb028fa8" name="Default Changelist" comment="">
+    <list default="true" id="69c4ca55-e08e-4f90-841d-44a2cb028fa8" name="Default Changelist" comment="rename">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ising &amp; XXZ/Ising_mix_main_gpu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ising &amp; XXZ/Ising_mix_main_gpu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Large/gqn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large/gqn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Large/large_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large/large_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Large/representation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large/representation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +15,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="4777754b-2dc0-4659-8dbf-129f37491eab" />
   <component name="ProjectId" id="2FIThpsAa2tU4cCMLv3RD5EU8Se" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,12 +45,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664178720748</updated>
-      <workItem from="1664178724848" duration="1656000" />
+      <workItem from="1664178724848" duration="4213000" />
     </task>
+    <task id="LOCAL-00001" summary="rename">
+      <created>1664180777107</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664180777107</updated>
+    </task>
+    <task id="LOCAL-00002" summary="rename">
+      <created>1664180828240</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664180828240</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rename" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename" />
   </component>
   <component name="WindowStateProjectService">
     <state x="587" y="352" key="Github.ShareDialog" timestamp="1664178782209">
@@ -62,5 +84,9 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="120" y="37" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1664178907403" />
+    <state x="243" y="147" key="Vcs.Push.Dialog.v2" timestamp="1664180848184">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="243" y="147" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1664180848184" />
   </component>
 </project>

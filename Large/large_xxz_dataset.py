@@ -15,17 +15,16 @@ class LargeRandomStateMeasurementResultData(Dataset):
                 tmp = np.concatenate((observables[i],combination_list[j]))
                 index_observables.append(tmp)
         self.observables = np.array(index_observables)
-        print(len(self.observables))
 
-        ratio_space = np.linspace(-2, 2, 41)
         values = []
+        ratio_space = np.linspace(-2, 2, 41)
         for i in range(0,41):
             for j in range(0,num_states):
-                tmp = np.load('ising_rand/rand_prob' + str(num_qubits) + 'qubits_' + str(round(ratio_space[i],1)) + '_' + str(j)+'.npy')
+                tmp = np.load('randxxz_prob/rand' + str(num_qubits) + 'qubits_' + str(round(ratio_space[i],1)) + '_' + str(j)+'.npy')
                 tmp = tmp.reshape(-1, 4)
                 values.append(np.array(tmp,dtype=np.float32))
-                print(tmp.shape)
         self.values = np.array(values)
+
 
     def __getitem__(self, idx):
         assert idx < len(self.values)
@@ -39,7 +38,7 @@ class TestLargeRandomStateMeasurementResultData(Dataset):
         for i in range(0,num_observables):
             tmp = np.load('2qubit/float_observable2'+str(i)+'.npy')
             observables.append(np.array(tmp))
-        ratio_space = np.linspace(-2, 2, 41)
+
         index_observables = []
         combination_list = np.load('mso/' + str(num_qubits)+'qubit_sequence_list.npy')
         for j in range(0, len(combination_list)):
@@ -49,9 +48,10 @@ class TestLargeRandomStateMeasurementResultData(Dataset):
         self.observables = np.array(index_observables)
 
         values = []
+        ratio_space = np.linspace(-2, 2, 41)
         for i in range(0,41):
             for j in range(0,num_states):
-                tmp = np.load('ising_rand/test_rand_prob' + str(num_qubits) + 'qubits_' + str(round(ratio_space[i],1)) + '_' + str(j)+'.npy')
+                tmp = np.load('randxxz_prob/test_rand' + str(num_qubits) + 'qubits_' + str(round(ratio_space[i],1)) + '_' + str(j)+'.npy')
                 tmp = tmp.reshape(-1, 4)
                 values.append(np.array(tmp,dtype=np.float32))
         self.values = np.array(values)
