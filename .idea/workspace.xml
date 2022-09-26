@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="69c4ca55-e08e-4f90-841d-44a2cb028fa8" name="Default Changelist" comment="rename">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large/gqn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large/gqn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large/large_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large/large_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large/representation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large/representation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +42,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664178720748</updated>
-      <workItem from="1664178724848" duration="4213000" />
+      <workItem from="1664178724848" duration="4790000" />
     </task>
     <task id="LOCAL-00001" summary="rename">
       <created>1664180777107</created>
