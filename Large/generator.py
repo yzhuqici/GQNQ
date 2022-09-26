@@ -24,7 +24,6 @@ class LSTMCell(nn.Module):
         output_gate = torch.sigmoid(self.output(input))
         state_gate  = torch.sigmoid(self.state(input))
 
-        # Update internal cell state
         cell = forget_gate * cell + input_gate * state_gate
         hidden = output_gate * torch.tanh(cell)
 
